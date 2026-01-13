@@ -518,7 +518,9 @@ textarea {
 
 .home-data-two {
   bottom: 12%;
+  font-size:1.3rem;
   right: clamp(-3rem, -5.2rem + 8.8vw, 2.5rem);
+  grid-template-columns: none;
 }
 
 .home-data-no {
@@ -728,7 +730,7 @@ textarea {
   box-shadow: 4px 4px var(--shadow-color);
 }
 /*=============== WORK ===============*/
-.work-list {
+/* .work-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -757,10 +759,11 @@ textarea {
   height: 2px;
   background-color: var(--first-color);
   transition: width 0.3s var(--transition);
-}
+} */
 
 /* Active work */
-.active-work {
+
+/* .active-work {
   color: var(--first-color);
 }
 
@@ -793,7 +796,7 @@ textarea {
 
 .work-description {
   min-height: 125px;
-}
+} */
 /*=============== RESUME ===============*/
 .resume-container {
   grid-template-columns: repeat(2, 1fr);

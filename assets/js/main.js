@@ -74,26 +74,26 @@ var servicesSwiper = new Swiper(".services-swiper", {
   },
 });
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
-var mixer = mixitup(".work-container", {
-  selectors: {
-    target: ".mix",
-  },
-  animation: {
-    duration: 300,
-  },
-});
+//var mixer = mixitup(".work-container", {
+//  selectors: {
+//    target: ".mix",
+//  },
+//  animation: {
+//    duration: 300,
+//  },
+//});
 /* Active work */
-const linkWork = document.querySelectorAll(".work-item");
+//const linkWork = document.querySelectorAll(".work-item");
 
-function activeWork() {
-  linkWork.forEach((a) => {
-    a.classList.remove("active-work");
-  });
+//function activeWork() {
+//  linkWork.forEach((a) => {
+//    a.classList.remove("active-work");
+//  });
 
-  this.classList.add("active-work");
-}
+//  this.classList.add("active-work");
+//}
 
-linkWork.forEach((a) => a.addEventListener("click", activeWork));
+//linkWork.forEach((a) => a.addEventListener("click", activeWork));
 /*=============== RESUME ===============*/
 const accordionItems = document.querySelectorAll(".resume-item");
 
